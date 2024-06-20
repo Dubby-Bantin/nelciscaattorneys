@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="service.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <title>Nelcisca Attonerys</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-4 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Nelcisca Attonerys</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenue">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Ourattorneys.html" class="nav-link">OUR ATTORNEYS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.html" class="nav-link">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+    <!-- contact and map -->
+
+    <section class="p-5 bg-white text-dark">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">CONTACT INFO</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold"> Onitsha Address: &nbsp;</span>No 10a Onitsha road Anambra
+                        </li><br>
+                        <li class="list-group-item">
+                            <span class="fw-bold"> Abuja Address: &nbsp;</span>No 10a Onitsha road Anambra
+                        </li><br>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email Address:&nbsp;</span><i>nobis@nelciscaattorneys.com</i>
+                        </li><br>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone No: &nbsp;</span><i>+3248033028719.</i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id='map'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light text-dark p-5 text-center text-md-start">
+
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <form action="">
+                        <div class="mb-3">
+                            <Label for="last-name" class="col-form-label">
+                                First Name:
+                            </Label>
+                            <input type="text" class="form-control" id="first name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">
+                                Last Name:
+                            </label>
+                            <input type="text" class="form-control" id="last-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email-address" class="col-form-label" id="email-address">
+                                Email Address:
+                            </label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="md-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="btn-1 md-3"><br>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <img class=" img-fluid 100% d-inline-block d-none d-lg-block"
+                            style="width: 550px; height: 400px;" src="/images/undraw_profile_re_4a55.svg" alt="" />
+                    </div>
+
+    </section>
+
+
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Nelcisca Attonerys</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"></a>
+            <i class="bi bi-arrow-up-circle h1"></i>
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Nelcisca Attorneys</h5>
+                    <p>we are one of the best leading law firm in Nigeria Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Porro eaque unde omnis, atque dolore minus?</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 ms-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">products</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">the providers</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">the providers</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">the providers</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">the providers</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">legal services</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Cooperate Law</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Real Estate</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Criminal Law</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Family Law</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">contact</h5>
+                    <p>
+                        <i class="fas fa-home mr-3">&nbsp; &nbsp;onitsha nigeria</i>
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3">&nbsp; &nbsp;elnobis@gmail.com</i>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3">&nbsp; &nbsp;+324 9087563234</i>
+                    </p>
+                    <p>
+                        <i class="fas fa-print mr-3">&nbsp; &nbsp;new york</i>
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-item-center">
+                <div class="div col-md-7 col lg-8">
+                    <p>copy right &copy; 2024 all rights reserved by:
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-warning">Nelcisca Attorneys</strong>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating-btn-sm-text-white" style="font-size: 20px;"><i
+                                        class="bi bi-whatsapp text-white mx-1"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating-btn-sm-text-white" style="font-size: 20px;"><i
+                                        class="bi bi-twitter text-white mx-1"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating-btn-sm-text-white" style="font-size: 20px;"><i
+                                        class="bi bi-facebook text-white mx-1"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating-btn-sm-text-white" style="font-size: 20px;"><i
+                                        class="bi bi-instagram text-white mx-1"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating-btn-sm-text-white" style="font-size: 20px;"><i
+                                        class="bi bi-telegram text-white mx-1"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibmVsY2lzY2EzMDMiLCJhIjoiY2x2ams0cW1yMDR6NjJqbXc5bTNsMWt4MCJ9.7uZIsrKxBq2zD8AIMekLFg';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11'
+        });
+    </script>
+
+</body>
+
+</html>
