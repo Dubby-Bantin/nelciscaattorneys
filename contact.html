@@ -30,7 +30,7 @@
                         <a href="index.html" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="Ourattorneys.html" class="nav-link">OUR ATTORNEYS</a>
+                        <a href="attorneys.html" class="nav-link">OUR ATTORNEYS</a>
                     </li>
                     <li class="nav-item">
                         <a href="service.html" class="nav-link">SERVICES</a>
@@ -48,6 +48,7 @@
 
 
     </nav>
+    
     <!-- contact and map -->
 
     <section class="p-5 bg-white text-dark">
@@ -223,6 +224,18 @@
             container: 'map',
             style: 'mapbox://styles/mapbox/streets-v11'
         });
+
+
+        map.addControl(
+      new mapboxgl.GeolocateControl({
+        positionOptions: {
+          enableHighAccuracy: true,
+        },
+        trackUserLocation: true,
+        showUserHeading: true,
+      })
+    );
+
     </script>
 
 </body>
