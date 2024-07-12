@@ -19,9 +19,22 @@
 .attorney__img__bg {
   height: 50rem;
   width: 30rem;
-  /* padding: 1rem; */
-  display: flex;
-  justify-content: center;
-  padding-top: 2rem;
-  box-shadow: 0.1rem 0.1rem 1rem grey;
+}
+
+.practice-areas {
+  color: #7a7a7a;
+}
+
+.list__parent {
+  font-size: 0.9rem;
+}
+
+.education {
+  height: 20rem;
+  padding-inline: 10rem;
+}
+
+.education ul li {
+  color: #7a7a7a;
+  font-size: 0.9rem;
 }
