@@ -23,7 +23,7 @@ let html = "";
 attorney.map(
   ({ id, name, image }) =>
     (html += `
-     <div class="d-flex justify-content-center gap-5 p-5">
+     <div class="d-flex justif-content-center gap-5 p-5">
       <div
         style="background: #f2f2f2;"
         class="attorney__img__bg rounded pt-4 d-flex flex-column align-items-center gap-5 justify-content-center"
