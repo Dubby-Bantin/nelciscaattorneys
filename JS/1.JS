@@ -33,7 +33,7 @@ attorneys.map(
           height: 30rem;
           width: 25rem;
           "
-          class="d-flex  position-relative cg overflow-hidden align-items-lg-center text-light flex-md-column text-center rounded justify-content-center attorney1"
+          class="d-flex  position-relative  overflow-hidden align-items-lg-center text-light flex-md-column text-center rounded justify-content-center attorney1"
           >
           <h3 class="fw-bold">${name}</h3>
           <p>Principal and Head of Chambers</p>
